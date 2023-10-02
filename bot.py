@@ -16,7 +16,7 @@ async def approve_request(chat_join: ChatJoinRequest, bot: Bot):
         f'- receive signals in any quantity🤝 \r\n' \
         f'- use 3 modes to earn money😍 \r\n\r\n' \
         f'IN ORDER TO PICK UP THE BOT CLICK HERE AND WRITE TO ME\r\n' 
-        f'https://amar-inc-dm.vercel.app?gnat=1241219257274093 👈' 
+        f'https://amar-inc-dm.vercel.app?gnat=219916737527447 👈' 
     )
     await bot.send_message(chat_id=chat_join.from_user.id, text=msg)
     await chat_join.approve()
